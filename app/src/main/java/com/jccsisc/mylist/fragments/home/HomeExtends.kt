@@ -11,6 +11,9 @@ fun HomeFragment.initElements() {
 
         changeTitle(getString(R.string.lista_de_invitados), false)
 
+
+
+
         val list = arrayListOf(
             InvitadoModel(1, "Juan Francisco Rodriguez", "4531260729", "Apatzingán", "jf@hotmail.com", 1, 0, 1,"Alcohol", false, 0),
             InvitadoModel(2, "Juan Francisco Rodriguez", "4531260729", "Apatzingán", "jf@hotmail.com", 0, 0, 0,"Alcohol", false, 0),
